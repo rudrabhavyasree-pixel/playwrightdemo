@@ -5,6 +5,7 @@ const URL = 'https://www.playwrightautomation.com/practice.html';
 
 // CASE 1: Using getByLabel()
 // Select Male, enter Name, Email, Address and click Reset
+// Verify fields are reset
 
 test('Case 1 - Male using getByLabel', async ({ page }) => {
 
