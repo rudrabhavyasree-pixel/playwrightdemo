@@ -1,6 +1,5 @@
 import test from "@playwright/test";
 
-
 test('how to use check and uncheck', async ({ page }) => {
 
     await page.goto('https://www.qapractice.com/practice-login-form');
